@@ -26,7 +26,7 @@ void imprimeLista(celula *cabeca)
 {
     celula *p = cabeca;
     while (p != NULL)
-	{
+    {
         printf("%d ", p->conteudo);
         p = p->prox;
     }
@@ -54,7 +54,7 @@ void removeLista(celula *lista)
     celula *proxima;
 
     while (atual != NULL)
-	{
+    {
         proxima = atual->prox;
         atual->prox = NULL;
         atual = proxima;
@@ -70,7 +70,7 @@ void removeLista(celula *lista)
     celula *proxima;
 
     while (atual != NULL)
-	{
+    {
         proxima = atual->prox;
         free(atual);	// Libera memória das células
         atual = proxima;
