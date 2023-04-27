@@ -60,7 +60,6 @@ void removeLista(celula *lista)
         atual = proxima;
     }
 }
-
 ```
 
 #### Exercício 5
@@ -77,7 +76,6 @@ void removeLista(celula *lista)
         atual = proxima;
     }
 }
-
 ```
 
 #### Exercício 6
